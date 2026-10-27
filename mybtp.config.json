@@ -1,0 +1,1587 @@
+{
+  "appName": "sales-order-viewer",
+  "signIn": "mybtp",
+  "contextVars": [],
+  "entities": [
+    {
+      "key": "SalesOrders",
+      "label": "Sales Orders",
+      "apiId": "2",
+      "entitySet": "SalesOrders",
+      "keys": [
+        "SalesOrder"
+      ],
+      "fields": [
+        {
+          "name": "SalesOrder",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "SalesOrderType",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOrganization",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DistributionChannel",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrganizationDivision",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOffice",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesDistrict",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SoldToParty",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CreationDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CreatedByUser",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "LastChangeDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SenderBusinessSystemName",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ExternalDocumentID",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "LastChangeDateTime",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ExternalDocLastChangeDateTime",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PurchaseOrderByCustomer",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PurchaseOrderByShipToParty",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPurchaseOrderType",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPurchaseOrderDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOrderDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TotalNetAmount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallDeliveryStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TotalBlockStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallOrdReltdBillgStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallSDDocReferenceStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TransactionCurrency",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SDDocumentReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PricingDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PriceDetnExchangeRate",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "BillingPlan",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequestedDeliveryDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ShippingCondition",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CompleteDeliveryIsDefined",
+          "type": "Edm.Boolean",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ShippingType",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "HeaderBillingBlockReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryBlockReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryDateTypeRule",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsClassification",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsTransferLocation",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsLocation1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsLocation2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsVersion",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPriceGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PriceListType",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPaymentTerms",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PaymentMethod",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "FixedValueDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AssignmentReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ReferenceSDDocument",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ReferenceSDDocumentCategory",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AccountingDocExternalReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerAccountAssignmentGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AccountingExchangeRate",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CorrespncExternalReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SlsDocSo2PLastContactPersnName",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SlsDocSo2PLstCntctPersnTelNmbr",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "POCorrespncExternalReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalCustomerGroup1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalCustomerGroup2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalCustomerGroup3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalCustomerGroup4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalCustomerGroup5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SlsDocIsRlvtForProofOfDeliv",
+          "type": "Edm.Boolean",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification6",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification7",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification8",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerTaxClassification9",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TaxDepartureCountry",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "VATRegistrationCountry",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOrderApprovalReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesDocApprovalStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallSDProcessStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TotalCreditCheckStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallTotalDeliveryStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallSDDocumentRejectionSts",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "BillingDocumentDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ContractAccount",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalValueDays",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPurchaseOrderSuplmnt",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ServicesRenderedDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        }
+      ]
+    },
+    {
+      "key": "Items",
+      "label": "Items",
+      "apiId": "2",
+      "entitySet": "Items",
+      "keys": [
+        "SalesOrder",
+        "SalesOrderItem"
+      ],
+      "fields": [
+        {
+          "name": "SalesOrder",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "SalesOrderItem",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "HigherLevelItem",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "HigherLevelItemUsage",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOrderItemCategory",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesOrderItemText",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PurchaseOrderByCustomer",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PurchaseOrderByShipToParty",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "UnderlyingPurchaseOrderItem",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ExternalItemID",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Material",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OriginallyRequestedMaterial",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "MaterialByCustomer",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PricingDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "PricingReferenceMaterial",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "BillingPlan",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequestedQuantity",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequestedQuantityUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequestedQuantitySAPUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequestedQuantityISOUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantityUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantitySAPUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantityISOUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ConfdDelivQtyInOrderQtyUnit",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemGrossWeight",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemNetWeight",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemWeightUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemWeightSAPUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemWeightISOUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemVolume",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemVolumeUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemVolumeSAPUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemVolumeISOUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TransactionCurrency",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "NetAmount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TotalSDDocReferenceStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SDDocReferenceStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "MaterialSubstitutionReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "MaterialGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "MaterialPricingGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalMaterialGroup1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalMaterialGroup2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalMaterialGroup3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalMaterialGroup4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalMaterialGroup5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "BillingDocumentDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ContractAccount",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AdditionalValueDays",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ServicesRenderedDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Batch",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductionPlant",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OriginalPlant",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AltvBsdConfSubstitutionStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "StorageLocation",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ShippingPoint",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ShippingType",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryPriority",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryDateQuantityIsFixed",
+          "type": "Edm.Boolean",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryDateTypeRule",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsClassification",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsTransferLocation",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsLocation1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "IncotermsLocation2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "TaxAmount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification6",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification7",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification8",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProductTaxClassification9",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "MatlAccountAssignmentGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CostAmount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerPaymentTerms",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "FixedValueDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerGroup",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SalesDocumentRjcnReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ItemBillingBlockReason",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SlsDocIsRlvtForProofOfDeliv",
+          "type": "Edm.Boolean",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "WBSElement",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProfitCenter",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AccountingExchangeRate",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ReferenceSDDocument",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ReferenceSDDocumentItem",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CorrespncExternalReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "POCorrespncExternalReference",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup1",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup2",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup3",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup4",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CustomerConditionGroup5",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SDProcessStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveryStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderRelatedBillingStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal1Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal2Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal3Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal4Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal5Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Subtotal6Amount",
+          "type": "Edm.Decimal",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "RequirementSegment",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        }
+      ]
+    },
+    {
+      "key": "SalesOrderScheduleLines",
+      "label": "Sales Order Schedule Lines",
+      "apiId": "2",
+      "entitySet": "SalesOrderScheduleLines",
+      "keys": [
+        "SalesOrder",
+        "SalesOrderItem",
+        "ScheduleLine"
+      ],
+      "fields": [
+        {
+          "name": "SalesOrder",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "SalesOrderItem",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "ScheduleLine",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "RequestedDeliveryDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ConfirmedDeliveryDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantityUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantitySAPUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OrderQuantityISOUnit",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ScheduleLineOrderQuantity",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ConfdOrderQtyByMatlAvailCheck",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DeliveredQtyInOrderQtyUnit",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OpenConfdDelivQtyInOrdQtyUnit",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CorrectedQtyInOrderQtyUnit",
+          "type": "Edm.Int32",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "DelivBlockReasonForSchedLine",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        }
+      ]
+    },
+    {
+      "key": "SalesOrderHeaderPartners",
+      "label": "Sales Order Header Partners",
+      "apiId": "2",
+      "entitySet": "SalesOrderHeaderPartners",
+      "keys": [
+        "SalesOrder",
+        "PartnerFunction"
+      ],
+      "fields": [
+        {
+          "name": "SalesOrder",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "PartnerFunction",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "PartnerFunctionInternalCode",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Customer",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Supplier",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "Personnel",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ContactPerson",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ReferenceBusinessPartner",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "AddressID",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "VATRegistration",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        }
+      ]
+    },
+    {
+      "key": "SalesOrderSubsequentProcessFlows",
+      "label": "Sales Order Subsequent Process Flows",
+      "apiId": "2",
+      "entitySet": "SalesOrderSubsequentProcessFlows",
+      "keys": [
+        "SalesOrder",
+        "DocRelationshipUUID"
+      ],
+      "fields": [
+        {
+          "name": "SalesOrder",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "DocRelationshipUUID",
+          "type": "Edm.String",
+          "isKey": true,
+          "editable": false
+        },
+        {
+          "name": "SubsequentDocument",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "SubsequentDocumentCategory",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "ProcessFlowLevel",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "OverallSDProcessStatus",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CreationDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "CreationTime",
+          "type": "Edm.String",
+          "isKey": false,
+          "editable": true
+        },
+        {
+          "name": "LastChangeDate",
+          "type": "Edm.DateTime",
+          "isKey": false,
+          "editable": true
+        }
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "screenId": "scr_941de21f0969",
+      "entityKey": "SalesOrders",
+      "params": [],
+      "filters": [],
+      "select": [
+        "SalesOrder",
+        "SoldToParty",
+        "SalesOrderType",
+        "SalesOrganization",
+        "SalesOrderDate",
+        "TotalNetAmount",
+        "TransactionCurrency",
+        "OverallSDProcessStatus"
+      ],
+      "top": 50
+    },
+    {
+      "screenId": "scr_0bcef104a5c9",
+      "entityKey": "Items",
+      "params": [
+        "SalesOrder"
+      ],
+      "filters": [
+        {
+          "id": "flt_f40818e4b39f",
+          "field": "SalesOrder",
+          "value": {
+            "kind": "param",
+            "name": "SalesOrder"
+          },
+          "operator": "eq"
+        }
+      ],
+      "select": [
+        "SalesOrder",
+        "SalesOrderItem",
+        "Material",
+        "SalesOrderItemText",
+        "RequestedQuantity",
+        "RequestedQuantityUnit",
+        "NetAmount",
+        "TransactionCurrency",
+        "ProductionPlant",
+        "DeliveryStatus"
+      ],
+      "top": 50
+    },
+    {
+      "screenId": "scr_8a07391037cb",
+      "entityKey": "SalesOrderScheduleLines",
+      "params": [
+        "SalesOrder",
+        "SalesOrderItem"
+      ],
+      "filters": [
+        {
+          "id": "flt_228436cd85a2",
+          "field": "SalesOrder",
+          "value": {
+            "kind": "param",
+            "name": "SalesOrder"
+          },
+          "operator": "eq"
+        },
+        {
+          "id": "flt_0fcc86968f25",
+          "field": "SalesOrderItem",
+          "value": {
+            "kind": "param",
+            "name": "SalesOrderItem"
+          },
+          "operator": "eq"
+        }
+      ],
+      "select": [
+        "SalesOrder",
+        "SalesOrderItem",
+        "ScheduleLine",
+        "RequestedDeliveryDate",
+        "ConfirmedDeliveryDate",
+        "ScheduleLineOrderQuantity",
+        "ConfdOrderQtyByMatlAvailCheck",
+        "DeliveredQtyInOrderQtyUnit",
+        "OrderQuantityUnit"
+      ],
+      "top": 50
+    },
+    {
+      "screenId": "scr_8247ac9e54d6",
+      "entityKey": "SalesOrderHeaderPartners",
+      "params": [
+        "SalesOrder"
+      ],
+      "filters": [
+        {
+          "id": "flt_8a856720db88",
+          "field": "SalesOrder",
+          "value": {
+            "kind": "param",
+            "name": "SalesOrder"
+          },
+          "operator": "eq"
+        }
+      ],
+      "select": [
+        "SalesOrder",
+        "PartnerFunction",
+        "Customer",
+        "Supplier",
+        "ReferenceBusinessPartner",
+        "ContactPerson"
+      ],
+      "top": 50
+    },
+    {
+      "screenId": "scr_776772f1d6db",
+      "entityKey": "SalesOrderSubsequentProcessFlows",
+      "params": [
+        "SalesOrder"
+      ],
+      "filters": [
+        {
+          "id": "flt_2a9a559ca674",
+          "field": "SalesOrder",
+          "value": {
+            "kind": "param",
+            "name": "SalesOrder"
+          },
+          "operator": "eq"
+        }
+      ],
+      "select": [
+        "SalesOrder",
+        "DocRelationshipUUID",
+        "SubsequentDocument",
+        "SubsequentDocumentCategory",
+        "OverallSDProcessStatus",
+        "CreationDate",
+        "CreationTime"
+      ],
+      "top": 50
+    }
+  ],
+  "actions": []
+}
